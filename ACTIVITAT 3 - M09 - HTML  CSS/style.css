@@ -241,6 +241,22 @@ header:hover {
   }
 
 
+/* Video */
+#video {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.video-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
 /* Footer */
 footer {
     display: flex;
