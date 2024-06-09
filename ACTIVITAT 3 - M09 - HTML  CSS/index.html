@@ -22,6 +22,15 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
     </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#seccion1 h1").click(function(){
+                $(".sobrenos .contenido").slideToggle();
+            });
+        });
+    </script>
 
     <main class="main-principal">
         <section id="seccion1">
