@@ -22,6 +22,15 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
     </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#seccion1 h1").click(function(){
+                $(".sobrenos .contenido").slideToggle();
+            });
+        });
+    </script>
 
     <main class="main-principal">
         <section id="seccion1">
@@ -107,6 +116,18 @@
                 <div class="imagen9">
                     <img src="imatges/doner.jpg" alt="doner">
                 </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Videos del restaurant</h2>
+            <div class="video-container">
+                <video controls muted autoplay loop>
+                    <source src="/videos/videoM09.mp4" type="video/mp4">
+                    <source src="videos/videoM9.webm" type="video/webm">
+                    <source src="videos/videoM9.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </section>
 
